@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="TAIGPT - A ChatGPT clone with Apple-inspired UI/UX and Stripe-style graphics"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Apple Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&family=SF+Pro+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'sf-display': ['SF Pro Display', 'system-ui', 'sans-serif'],
+              'sf-text': ['SF Pro Text', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+              'apple-gray': {
+                50: '#f9f9f9',
+                100: '#f2f2f2',
+                200: '#e5e5e5',
+                300: '#d1d1d1',
+                400: '#b0b0b0',
+                500: '#8e8e8e',
+                600: '#6d6d6d',
+                700: '#5a5a5a',
+                800: '#4a4a4a',
+                900: '#3d3d3d',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <title>TAIGPT - AI Chat Assistant</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html> 
